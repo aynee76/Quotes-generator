@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(270deg, #026521, #fbff00)
+}
+
+main {
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 16px;color: white;
+
+    background-image: linear-gradient(90deg, #024665, #19066e);
+}
